@@ -20,7 +20,7 @@ public class Ejercicio1 {
 		int duplicados=0;
 		for (int i = 0; i < cadena.length(); i++) {
 			comprobar= cadena.charAt(i);
-			duplicados=0;
+			
 			for (int j = 0; j <cadena.length(); j++) {
 				if (comprobar==cadena.charAt(j)) {
 					duplicados++;
@@ -30,9 +30,10 @@ public class Ejercicio1 {
 				}
 				
 			}
-			if(duplicados>1)
-				System.out.println("El caracter " + comprobar +" aparece " + duplicados);
+			
 		}
+		if(duplicados>1)
+			System.out.println("Hay un total de " + duplicados + " caracteres repetidos");
 		
 
 	}
