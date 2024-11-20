@@ -7,6 +7,8 @@ public class Ejercicio3 {
 	
 	 static String invertirLetras( String cadena) {
 		 	
+		 //invertir letra de cada palabra
+		  
 		 String invertir = "";
 		  char caracter;
 		 
@@ -23,7 +25,8 @@ public class Ejercicio3 {
 		return invertir;
 	}
 	 
-
+	 		
+	 //invertir letras y palabras
 
 	 	static String invertirPalabra(String cadena) {
 			
