@@ -61,9 +61,10 @@ public class Ejercicio3 {
 			
 			String invertirLetra= invertirLetras(cadena);
 			System.out.println(invertirLetra);
+
 			
-			System.out.println("int");
-			
+			System.out.println("introduce * para acabar");
+				
 			cadena=sc.next();
 			
 		}
