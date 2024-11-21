@@ -26,26 +26,9 @@ public class Ejercicio3 {
 	}
 	 
 	 		
-	 //invertir letras y palabras
+	
 
-	 	static String invertirPalabra(String cadena) {
-			
-			String invertir = "";
-			
-			char caracter=0;
-			for (int i = cadena.length()-1; i >=0; i--) {
-				
-				caracter=cadena.charAt(i);
-				invertir+=caracter;
-				
-				
-			}
-			
-			
-			
-			return null;
-		}
-
+	 	
 	
 
 	public static void main(String[] args) {
@@ -53,7 +36,7 @@ public class Ejercicio3 {
 		//programa que invierta las letras de cada palabra y las palabras mismas. 
 		
 		
-		System.out.println("introduce una cadena");
+		System.out.println("introduce una cadena introduce * en el final de la frase para acabar");
 		
 		Scanner sc = new Scanner(System.in);
 		String cadena = sc.next();
@@ -66,33 +49,15 @@ public class Ejercicio3 {
 			System.out.println(invertirLetra);
 
 			
-			System.out.println("introduce * para acabar");
+			
 				
 			cadena=sc.next();
 			
 		}
 		
-		System.out.println("introduzca otra cadena");
-		
-		cadena=sc.nextLine();
-		
-		while(cadena!="") {
-			
-			String invertirPalabra= invertirPalabra(cadena);
-			
-			
-		}
-		
-		
-		
-		
-		
-		
-		
-		
-	}
+	}}
 
 
 
 	
-}
+
